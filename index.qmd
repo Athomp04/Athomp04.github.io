@@ -1,5 +1,5 @@
 ---
-title: "YOUR NAME"
+title: "Andrew Thompson"
 about:
   template: trestles  # jolla  trestles  solana  marquee  broadside
   image: img/profile.png
@@ -9,33 +9,33 @@ about:
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: www.linkedin.com/in/andrew-thompson-97ba53253
     - icon: instagram
       text: Instagram
-      href: https://instagram.com
+      href: https://instagram.com/athomp.04
     - icon: github
       text: GitHub
-      href: https://github.com
+      href: https://github.com/Athomp04/Athomp04.github.io
     - icon: file-earmark-pdf
       text: Resumé
       href: https://GITHUB_USERNAME.github.io/resume-example.pdf
     - icon: mailbox
       text: Email
-      href: mailto:YOUR_EMAIL@geneseo.edu
+      href: mailto:at102@geneseo.edu
 
 ---
 
 
-Finley Malloc majors in Data Analytics at SUNY Geneseo. When not working on data analytics, Finley enjoys spending time unicycling and playing with her pet iguana.
+Andrew Thompson majors in Data Analytics at SUNY Geneseo. When not working on school work, Andrew enjoys spending time paying ultimate frisbee and basketball.
 
 ## Education
 
 State University of New York at Geneseo | Geneseo, NY <br>
-B.S. in Data Analytics | Aug 2022 - May 2026 <br>
-Minor in Business Administration 
+B.S. in Accounting | Aug 2022 - May 2026 <br>
+
 
 ## Experience
 
-Starbucks Analytics | Data Analyst Intern | May 2024 - Aug 2024
+ESL Federal Credit Union | Accounting Intern | May 2024 - Aug 2024
 
 
