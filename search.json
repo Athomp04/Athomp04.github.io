@@ -11,7 +11,7 @@
     "href": "posts/welcome/index.html",
     "title": "Welcome To My Blog",
     "section": "",
-    "text": "Blog Post #1 In this first post I will be displaying the amount of street vendors. By looking at the graph, the amount of streets is vary diverse and offers much data.\n Blog Post #2"
+    "text": "Blog Post #1 In this first post I will be displaying the amount of street vendors. By looking at the graph, the amount of streets is vary diverse and offers much data.\n Blog Post #2 In this second post I displayed the various playlist names that were included in the data set.  Blog Post #3 This bar graph is showing the 5 different beer brands seen in this data set. Along with the amount of times they come up in the set."
   },
   {
     "objectID": "posts/starwars/starwars_df.html",
@@ -100,9 +100,9 @@
   {
     "objectID": "blog-listing.html",
     "href": "blog-listing.html",
-    "title": "Homework Assignment 5",
+    "title": "Andrew Thompsons Blog",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\nDec 11, 2023\n\n\nAndrew Thompson\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nBeer Markets\n\n\n\n\n\n\n\n\n\nNov 2, 2023\n\n\nByeong-Hak Choe\n\n\n9 min\n\n\n\n\n\n\n  \n\n\n\n\nStarwars\n\n\n\n\n\n\n\n\n\nOct 30, 2023\n\n\nYour Name\n\n\n3 min\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\n\n\nOct 30, 2023\n\n\nYOUR NAME\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\nDec 11, 2023\n\n\nAndrew Thompson\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nBeer Markets\n\n\n\n\n\n\n\n\n\nNov 2, 2023\n\n\nByeong-Hak Choe\n\n\n9 min\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\n\n\nOct 30, 2023\n\n\nYOUR NAME\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "project.html",

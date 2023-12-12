@@ -1,5 +1,5 @@
 ---
-title: "Homework Assignment 5"
+title: "Andrew Thompsons Blog"
 listing:
   contents: posts
   type: default

@@ -10,5 +10,10 @@ In this first post I will be displaying the amount of street vendors. By looking
 
 ![](Rplot01.png)
 Blog Post #2
+In this second post I displayed the various playlist names that were included in the data set.
+![](Rplot.png)
+Blog Post #3
+This bar graph is showing the 5 different beer brands seen in this data set. Along with the amount of times they come up in the set.
+![](Rplot02.png)
 
-![]()
+
