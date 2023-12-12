@@ -5,39 +5,6 @@ date: "2023-12-11"
 categories: [news, code, analysis]
 image: "NFL.jpeg"
 ---
-
-
-```{r}
-#| include: false
-
-library(knitr)
-library(rmarkdown)
-library(tidyverse)
-library(skimr)
-library(ggthemes)
-library(hrbrthemes)
-
-theme_set(theme_ipsum()+
-          theme(strip.background =element_rect(fill="lightgray"),
-                axis.title.x  = element_text(angle = 0,
-                                            size = rel(1.5),
-                                            margin = margin(10,0,0,0)),
-                axis.title.y  = element_text(angle = 0,
-                                            size = rel(1.5),
-                                            margin = margin(0,10,0,0))
-                )
-          )
-```
-```{r}
-NFL <- read_csv('https://bcdanl.github.io/data/NFL2022_stuffs.csv')
-```
-```{r}
-#| results: asis
-rmarkdown::paged_table(NFL)
-```
-
-
-
 Question 2
 a)Q: In data.frame, NFL2022_stuffs, remove observations for which values of posteam is missing.
 Answer: NFL2022_stuffs <- NFL2022_stuffs[!is.na(NFL2022_stuffs$posteam), ]

@@ -16,4 +16,4 @@ Blog Post #3
 This bar graph is showing the 5 different beer brands seen in this data set. Along with the amount of times they come up in the set.
 ![](Rplot02.png)
 
-
+Homework Assignment 5 Question 2
