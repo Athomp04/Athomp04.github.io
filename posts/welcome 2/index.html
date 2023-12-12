@@ -203,7 +203,29 @@ dbl (8): play_id, drive, week, qtr, down, half_seconds_remaining, pass, wp
 </div>
 </div>
 <p>Question 2 a)Q: In data.frame, NFL2022_stuffs, remove observations for which values of posteam is missing. Answer: NFL2022_stuffs &lt;- NFL2022_stuffs[!is.na(NFL2022_stuffs$posteam), ]</p>
-<p>b)Q: Summarize the mean value of pass for each posteam when all the following conditions hold: wp is greater than 20% and less than 75%; down is less than or equal to 2; and half_seconds_remaining is greater than 120. Answer: NFL2022_stuffs %&gt;% filter(wp &gt; 0.2 &amp; wp &lt; 0.75, down &lt;= 2, half_seconds_remaining &gt; 120) %&gt;% group_by(posteam) %&gt;% summarize(mean_pass = mean(pass, na.rm = TRUE))</p>
+<p>b)Q: Summarize the mean value of pass for each posteam when all the following conditions hold: wp is greater than 20% and less than 75%; down is less than or equal to 2; and half_seconds_remaining is greater than 120. Answer:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>NFL <span class="sc">%&gt;%</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(wp <span class="sc">&gt;</span> <span class="fl">0.2</span> <span class="sc">&amp;</span> wp <span class="sc">&lt;</span> <span class="fl">0.75</span>, down <span class="sc">&lt;=</span> <span class="dv">2</span>, half_seconds_remaining <span class="sc">&gt;</span> <span class="dv">120</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(posteam) <span class="sc">%&gt;%</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean_pass =</span> <span class="fu">mean</span>(pass, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 32 × 2
+   posteam mean_pass
+   &lt;chr&gt;       &lt;dbl&gt;
+ 1 ARI         0.553
+ 2 ATL         0.4  
+ 3 BAL         0.520
+ 4 BUF         0.604
+ 5 CAR         0.458
+ 6 CHI         0.420
+ 7 CIN         0.657
+ 8 CLE         0.491
+ 9 DAL         0.474
+10 DEN         0.493
+# ℹ 22 more rows</code></pre>
+</div>
+</div>
 <p>c)Q: Provide both (1) a ggplot code with geom_point() using the resulting data.frame in Q2b and (2) a simple comments to describe the mean value of pass for each posteam. In the ggplot, reorder the posteam categories based on the mean value of pass in ascending or in descending order.</p>
 <p>Answer: ggplot code: ggplot(r aes(x = posteam, y = mean_pass))+ geom_point() + labs(title = “Mean Value of ‘pass’ for Each posteam”, x = “posteam”, y = “Mean Value of pass”)</p>
 <ol start="4" type="a">

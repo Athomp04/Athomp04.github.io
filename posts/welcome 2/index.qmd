@@ -47,10 +47,14 @@ wp is greater than 20% and less than 75%;
 down is less than or equal to 2; and
 half_seconds_remaining is greater than 120.
 Answer: 
-NFL2022_stuffs %>%
+
+```{r}
+NFL %>%
   filter(wp > 0.2 & wp < 0.75, down <= 2, half_seconds_remaining > 120) %>%
   group_by(posteam) %>%
   summarize(mean_pass = mean(pass, na.rm = TRUE))
+```
+  
   
 c)Q: Provide both (1) a ggplot code with geom_point() using the resulting data.frame in Q2b and (2) a simple comments to describe the mean value of pass for each posteam.
 In the ggplot, reorder the posteam categories based on the mean value of pass in ascending or in descending order.
@@ -61,6 +65,7 @@ ggplot(r aes(x = posteam, y = mean_pass))+
   labs(title = "Mean Value of 'pass' for Each posteam",
        x = "posteam",
        y = "Mean Value of pass")
+
 
 
 d) Q: Create the data.frame, NFL2022_stuffs_EPA, that includes
