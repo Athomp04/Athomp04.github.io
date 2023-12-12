@@ -2,7 +2,7 @@
 title: "Andrew Thompson"
 about:
   template: trestles  # jolla  trestles  solana  marquee  broadside
-  image: img/IMG_1988.jpg
+  image: img/IMG_1988.png
   image-width: 15em
   image-shape: round # rectangle  round  rounded
   
@@ -26,7 +26,7 @@ about:
 ---
 
 
-Andrew Thompson majors in Data Analytics at SUNY Geneseo. When not working on school work, Andrew enjoys spending time paying ultimate frisbee and basketball.
+Andrew Thompson majors in Data Analytics at SUNY Geneseo. When not working on school work, Andrew enjoys spending time playing ultimate frisbee and basketball.
 
 ## Education
 
